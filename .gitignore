@@ -1,0 +1,4 @@
+*.llf
+/mezzano.image
+/mezzano.map
+/mezzano.vmdk

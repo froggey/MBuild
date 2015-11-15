@@ -1,0 +1,30 @@
+[submodule "home/asdf"]
+	path = home/asdf
+	url = https://github.com/froggey/asdf
+[submodule "home/trivial-features"]
+	path = home/trivial-features
+	url = https://github.com/froggey/trivial-features
+[submodule "home/zpb-ttf"]
+	path = home/zpb-ttf
+	url = https://github.com/froggey/zpb-ttf
+[submodule "home/cl-jpeg"]
+	path = home/cl-jpeg
+	url = https://github.com/froggey/cl-jpeg
+[submodule "home/chipz"]
+	path = home/chipz
+	url = https://github.com/froggey/chipz
+[submodule "home/alexandria"]
+	path = home/alexandria
+	url = https://gitlab.common-lisp.net/alexandria/alexandria.git
+[submodule "home/babel"]
+	path = home/babel
+	url = https://github.com/cl-babel/babel
+[submodule "home/png-read"]
+	path = home/png-read
+	url = https://github.com/Ramarren/png-read
+[submodule "home/cl-vectors"]
+	path = home/cl-vectors
+	url = https://github.com/fjolliton/cl-vectors.git
+[submodule "Mezzano"]
+	path = Mezzano
+	url = https://github.com/froggey/Mezzano
