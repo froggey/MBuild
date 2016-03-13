@@ -25,6 +25,12 @@
 [submodule "home/cl-vectors"]
 	path = home/cl-vectors
 	url = https://github.com/fjolliton/cl-vectors.git
+[submodule "home/med"]
+	path = home/med
+	url = https://github.com/froggey/med
+[submodule "home/slime"]
+	path = home/slime
+	url = https://github.com/froggey/slime
 [submodule "Mezzano"]
 	path = Mezzano
 	url = https://github.com/froggey/Mezzano
