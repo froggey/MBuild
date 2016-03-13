@@ -1,6 +1,8 @@
 #-quicklisp
 (error "Quicklisp not found!")
 
+(setf sb-impl::*default-external-format* :utf-8)
+
 (format t "Loading build prerequisites....~%")
 #+quicklisp
 (ql:quickload '(:nibbles :cl-ppcre :iterate :alexandria))
