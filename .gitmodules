@@ -9,7 +9,7 @@
 	url = https://github.com/froggey/zpb-ttf
 [submodule "home/cl-jpeg"]
 	path = home/cl-jpeg
-	url = https://github.com/froggey/cl-jpeg
+	url = https://github.com/sharplispers/cl-jpeg.git
 [submodule "home/chipz"]
 	path = home/chipz
 	url = https://github.com/froggey/chipz
