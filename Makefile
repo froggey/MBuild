@@ -1,24 +1,27 @@
+# This must be the SBCL executable to use
 SBCL := sbcl
+# This must be the IP address of the file-server.
+# Note! Addresses on 10/8 networks are not supported, as this conflicts
+# with the network provided by qemu and VirtualBox.
 FILE_SERVER_IP := 192.168.0.123
 
 all:
-	@echo "Steps to build:"
+	@echo "Quick start:"
 	@echo " 0. Set SBCL path and FILE_SERVER_IP in Makefile."
 	@echo "    Run git submodule update --init"
-	@echo " 1. Run build-cold-image."
-	@echo " 2. In a seperate terminal, run make run-file-server."
-	@echo "    The file server needs to run while qemu is running."
-	@echo " 3. Run make qemu or make kvm."
-	@echo "    Use make kvm when possible, it is much faster."
+	@echo " 1. Run make cold-image-vmdk"
+	@echo " 2. In a seperate terminal, run make run-file-server"
+	@echo "    The file server needs to run while the VM is running."
+	@echo " 3. Point VirtualBox at mezzano.vmdk and start the VM."
 
-build-cold-image: build-cold-image.lisp
+cold-image: build-cold-image.lisp
 	echo "(in-package :sys.int)" > Mezzano/config.lisp
 	echo "(defparameter *file-server-host-ip* \"$(FILE_SERVER_IP)\")" >> Mezzano/config.lisp
 	echo "(defparameter *home-directory-path* \"$(CURDIR)/home/\")" >> Mezzano/config.lisp
 	echo "(defparameter *mezzano-source-path* \"$(CURDIR)/Mezzano/\")" >> Mezzano/config.lisp
 	cd Mezzano/ && $(SBCL) --load ../build-cold-image.lisp
 
-build-cold-image-vmdk: build-cold-image
+cold-image-vmdk: cold-image
 	rm -f mezzano.vmdk
 	VBoxManage convertfromraw --format vmdk mezzano.image mezzano.vmdk
 
@@ -35,4 +38,4 @@ clean:
 	rm -rf Mezzano/*.llf Mezzano/*/*.llf
 	rm -rf mezzano.image mezzano.map mezzano.vmdk
 
-.PHONY: run-file-server build-cold-image build-cold-image-vmdk qemu kvm clean all
+.PHONY: run-file-server cold-image cold-image-vmdk qemu kvm clean all
