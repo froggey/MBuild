@@ -1,7 +1,8 @@
 Prerequisites
 -------------
 
-A recent version of SBCL is required (1.2.4, 1.2.10, and 1.3.2 are known to work).
+A recent version of SBCL with Unicode support is required.
+Versions 1.2.4, 1.2.10, 1.3.2, and 1.3.5 are known to work.
 Newer versions should work, but have not been tested.
 
 The following systems should be installed using Quicklisp:
