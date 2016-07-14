@@ -4,6 +4,13 @@
 #-quicklisp
 (error "Quicklisp not found!")
 
+#-sb-unicode
+(error "Unicode support is required.")
+
+;; The cold-generator requires a distinct (vector (unsigned-byte 64)) type.
+#-x86-64
+(error "A 64-bit SBCL is required.")
+
 (setf sb-impl::*default-external-format* :utf-8)
 
 (format t "Loading build prerequisites....~%")
