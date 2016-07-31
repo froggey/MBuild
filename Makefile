@@ -3,7 +3,7 @@ SBCL := sbcl
 # This must be the IP address of the file-server.
 # Note! Addresses on 10/8 networks are not supported, as this conflicts
 # with the network provided by qemu and VirtualBox.
-FILE_SERVER_IP := 192.168.0.123
+FILE_SERVER_IP := 127.0.0.1
 
 all:
 	@echo "Quick start:"
