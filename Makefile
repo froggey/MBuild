@@ -1,9 +1,17 @@
 # This must be the SBCL executable to use
 SBCL := sbcl
 # This must be the IP address of the file-server.
-# Note! Addresses on 10/8 networks are not supported, as this conflicts
+# Note! Addresses on 10.0.2/24 networks are not supported, as this conflicts
 # with the network provided by qemu and VirtualBox.
-FILE_SERVER_IP := 192.168.0.123
+FILE_SERVER_IP := 192.168.0.555
+
+# Report an error if this hasn't been configured.
+ifeq ($(FILE_SERVER_IP),192.168.0.555)
+# Unless no target was specified.
+ifneq ($(MAKECMDGOALS),)
+$(error FILE_SERVER_IP has not been configured in the Makefile)
+endif
+endif
 
 all:
 	@echo "Quick start:"
@@ -15,6 +23,9 @@ all:
 	@echo " 3. Point VirtualBox at mezzano.vmdk and start the VM."
 
 cold-image: build-cold-image.lisp
+	@echo File server address: $(FILE_SERVER_IP)
+	@echo Source path: $(CURDIR)/Mezzano/
+	@echo Home directory path: $(CURDIR)/home/
 	echo "(in-package :sys.int)" > Mezzano/config.lisp
 	echo "(defparameter *file-server-host-ip* \"$(FILE_SERVER_IP)\")" >> Mezzano/config.lisp
 	echo "(defparameter *home-directory-path* \"$(CURDIR)/home/\")" >> Mezzano/config.lisp

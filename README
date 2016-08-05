@@ -22,7 +22,7 @@ Quick Start
    Set SBCL and FILE_SERVER_IP in the top-level Makefile.
    SBCL must point at the SBCL binary, and FILE_SERVER_IP to the IP address
    of the local machine.
-   Note! Addresses on 10/8 networks are not supported (such as 10.0.0.5), as
+   Note! Addresses on 10.0.2.0/24 networks are not supported (such as 10.0.2.5), as
    this conflicts with the network provided by QEMU and VirtualBox.
 
 1. Run "make cold-image-vmdk"
