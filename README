@@ -48,6 +48,8 @@ Quick Start
             Path: /some/file
 
 
+Due to the use of submodules you need to run "git submodule update --init" after pulling to update to the latest version.
+
 Using QEMU/KVM
 --------------
 
