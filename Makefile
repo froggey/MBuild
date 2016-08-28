@@ -40,9 +40,9 @@ run-file-server: run-file-server.lisp
 	cd Mezzano/file-server/ && $(SBCL) --load ../../run-file-server.lisp
 
 qemu:
-	qemu-system-x86_64 -m 512 -hda mezzano.image -serial stdio -vga std -net user -net nic,model=virtio
+	qemu-system-x86_64 -m 512 -hda mezzano.image -serial stdio -vga std -net user,hostfwd=tcp:127.0.0.1:4005-:4005 -net nic,model=virtio
 kvm:
-	qemu-system-x86_64 -m 512 -hda mezzano.image -serial stdio -vga std -net user -net nic,model=virtio -enable-kvm
+	qemu-system-x86_64 -m 512 -hda mezzano.image -serial stdio -vga std -net user,hostfwd=tcp:127.0.0.1:4005-:4005 -net nic,model=virtio -enable-kvm
 
 clean:
 	rm -rf home/.cache/common-lisp/ home/.slime/ home/asdf/asdf.llf
