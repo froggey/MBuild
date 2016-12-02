@@ -24,6 +24,7 @@ Quick Start
    of the local machine.
    Note! Addresses on 10.0.2.0/24 networks are not supported (such as 10.0.2.5), as
    this conflicts with the network provided by QEMU and VirtualBox.
+   IPv6 addresses are not supported.
 
 1. Run "make cold-image-vmdk"
    This will build a cold image suitable for use with VirtualBox, and

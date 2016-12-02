@@ -28,11 +28,7 @@
 (push *default-pathname-defaults* asdf:*central-registry*)
 (asdf:load-system :lispos)
 ;; Initialize the compiler.
-(with-compilation-unit ()
-  (sys.c::set-up-cross-compiler)
-  (mapc 'sys.c::load-for-cross-compiler cold-generator::*supervisor-source-files*)
-  (mapc 'sys.c::load-for-cross-compiler cold-generator::*source-files*)
-  (mapc 'sys.c::load-for-cross-compiler cold-generator::*warm-source-files*))
+(cold-generator:set-up-cross-compiler)
 
 (format t "Building cold image...~%")
 (cold-generator::make-image "../mezzano" :image-size (* 512 1024 1024) :header-path "tools/disk-header.bin")
