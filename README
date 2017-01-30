@@ -47,6 +47,7 @@ Quick Start
    Serial Ports->Port 1: enabled
             Port Mode: Raw file
             Path: /some/file
+   Audio->Audio Controller: Intel HD Audio
 
 
 Due to the use of submodules you need to run "git submodule update --init" after pulling to update to the latest version.
