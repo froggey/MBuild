@@ -46,7 +46,7 @@ kvm:
 
 clean:
 	rm -rf home/.cache/common-lisp/ home/.slime/ home/asdf/asdf.llf
-	rm -rf Mezzano/*.llf Mezzano/*/*.llf
+	find Mezzano/ -name '*.llf' -type f -exec rm {} +
 	rm -rf mezzano.image mezzano.map mezzano.vmdk
 
 .PHONY: run-file-server cold-image cold-image-vmdk qemu kvm clean all
