@@ -34,3 +34,9 @@
 [submodule "Mezzano"]
 	path = Mezzano
 	url = https://github.com/froggey/Mezzano
+[submodule "home/cl-wav"]
+	path = home/cl-wav
+	url = https://github.com/RobBlackwell/cl-wav.git
+[submodule "home/cl-riff"]
+	path = home/cl-riff
+	url = https://github.com/RobBlackwell/cl-riff.git
