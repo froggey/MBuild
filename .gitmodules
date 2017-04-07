@@ -40,3 +40,15 @@
 [submodule "home/cl-riff"]
 	path = home/cl-riff
 	url = https://github.com/RobBlackwell/cl-riff.git
+[submodule "home/cl-video"]
+	path = home/cl-video
+	url = https://github.com/varjagg/cl-video.git
+[submodule "home/skippy"]
+	path = home/skippy
+	url = https://github.com/xach/skippy.git
+[submodule "home/flexi-streams"]
+	path = home/flexi-streams
+	url = https://github.com/edicl/flexi-streams.git
+[submodule "home/bordeaux-threads"]
+	path = home/bordeaux-threads
+	url = https://github.com/froggey/bordeaux-threads.git
