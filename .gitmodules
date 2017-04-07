@@ -52,3 +52,6 @@
 [submodule "home/bordeaux-threads"]
 	path = home/bordeaux-threads
 	url = https://github.com/froggey/bordeaux-threads.git
+[submodule "home/trivial-gray-streams"]
+	path = home/trivial-gray-streams
+	url = https://github.com/froggey/trivial-gray-streams.git
