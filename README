@@ -2,7 +2,7 @@ Prerequisites
 -------------
 
 A recent 64-bit version of SBCL with Unicode support is required.
-Versions 1.2.4, 1.2.10, 1.3.2, and 1.3.5 are known to work.
+Versions 1.2.4, 1.2.10, 1.3.1, 1.3.2, and 1.3.5 are known to work.
 Newer versions should work, but have not been tested.
 
 The following systems should be installed using Quicklisp:
@@ -12,7 +12,21 @@ Nibbles
 CL-PPCRE
 CL-FAD
 
-Additionally, you will need either QEMU or VirtualBox.
+To install the packages with Quicklisp, install SBCL and Quicklisp.  Then at a shell prompt, run:
+sbcl --script /path/to/quicklisp.lisp
+(on Debian and Ubuntu based Linux systems, if you install Quicklisp through the package manager it's in sbcl --script /usr/share/cl-quicklisp/quicklisp.lisp)
+In SBCL type each of the following commands:
+(quicklisp-quickstart:install)
+(ql:add-to-init-file)
+(ql:quickload "Alexandria")
+(ql:quickload "Iterate")
+(ql:quickload "Nibbles")
+(ql:quickload "CL-PPCRE")
+(ql:quickload "CL-FAD")
+(quit)
+
+
+Additionally, you will need VirtualBox to create the vmdk file and either QEMU or VirtualBox to run it.
 
 
 Quick Start
@@ -52,10 +66,12 @@ Quick Start
 
 Due to the use of submodules you need to run "git submodule update --init" after pulling to update to the latest version.
 
-Using QEMU/KVM
---------------
+Using QEMU/KVM instead of VirtualBox
+------------------------------------
 
 After building a cold image and starting the file-server as
 described by the Quick Start section above run
 "make qemu" or "make kvm" to run QEMU.
 Using KVM is recommended as it is much faster than QEMU.
+
+Note that the first time you run Mezzano, a lot of the code is compiled and boot time can take ten  minutes or more on slow machines.  Subsequent boots are much faster, typically under two minutes.
