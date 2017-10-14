@@ -55,3 +55,6 @@
 [submodule "home/trivial-gray-streams"]
 	path = home/trivial-gray-streams
 	url = https://github.com/froggey/trivial-gray-streams.git
+[submodule "home/split-sequence"]
+	path = home/split-sequence
+	url = https://github.com/sharplispers/split-sequence.git
