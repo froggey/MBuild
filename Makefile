@@ -33,8 +33,18 @@ cold-image: build-cold-image.lisp
 	cd Mezzano/ && $(SBCL) --load ../build-cold-image.lisp
 
 cold-image-vmdk: cold-image
+	$(eval VM_NAME = $(shell VBoxManage showmediuminfo mezzano.vmdk |awk '/^In use by VMs:/{print $$5}'))
+	$(eval VM_UUID = $(shell VBoxManage showmediuminfo mezzano.vmdk |awk -F ': |[()]' '/^In use by VMs: .* \(UUID:(.*)\)/{print $$4}'))
+	$(eval DISK_UUID = $(shell VBoxManage showmediuminfo mezzano.vmdk |awk '/^UUID:/{print $$2}'))
+	@echo "VM_NAME: $(VM_NAME)"
+	@echo "VM_UUID: $(VM_UUID)"
+	@echo "DISK_UUID: $(DISK_UUID)"
+	-VBoxManage storagectl "$(VM_NAME)" --name IDE --remove
+	-VBoxManage closemedium disk mezzano.vmdk
 	rm -f mezzano.vmdk
 	VBoxManage convertfromraw --format vmdk mezzano.image mezzano.vmdk
+	VBoxManage storagectl "$(VM_NAME)" --name IDE --add ide --controller PIIX4
+	VBoxManage storageattach "$(VM_NAME)" --storagectl IDE --port 0 --device 0 --type hdd --medium mezzano.vmdk
 
 run-file-server: run-file-server.lisp
 	cd Mezzano/file-server/ && $(SBCL) --load ../../run-file-server.lisp
