@@ -3,7 +3,7 @@ SBCL := sbcl
 # This must be the IP address of the file-server.
 # Note! Addresses on 10.0.2/24 networks are not supported, as this conflicts
 # with the network provided by qemu and VirtualBox.
-FILE_SERVER_IP := 192.168.1.104
+FILE_SERVER_IP := 192.168.0.555
 
 # Report an error if this hasn't been configured.
 ifeq ($(FILE_SERVER_IP),192.168.0.555)
