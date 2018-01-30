@@ -30,7 +30,7 @@ cold-image: build-cold-image.lisp
 	echo "(defparameter *file-server-host-ip* \"$(FILE_SERVER_IP)\")" >> Mezzano/config.lisp
 	echo "(defparameter *home-directory-path* \"$(CURDIR)/home/\")" >> Mezzano/config.lisp
 	echo "(defparameter *mezzano-source-path* \"$(CURDIR)/Mezzano/\")" >> Mezzano/config.lisp
-	cd Mezzano/ && $(SBCL) --load ../build-cold-image.lisp
+	cd Mezzano/ && $(SBCL) --dynamic-space-size 2048 --load ../build-cold-image.lisp
 
 cold-image-vmdk: cold-image
 	$(eval VM_NAME = $(shell VBoxManage showmediuminfo mezzano.vmdk |awk '/^In use by VMs:/{print $$5}'))
