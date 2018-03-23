@@ -44,7 +44,7 @@ cold-image-vmdk: cold-image
 	rm -f mezzano.vmdk
 	VBoxManage convertfromraw --format vmdk mezzano.image mezzano.vmdk
 
-update-virutalbox: cold-image-vmdk
+update-virtualbox: cold-image-vmdk
 # This fails when the image isn't attached to any VM and there's nothing to update.
 	@echo "*** Failures from VBoxManage are harmless and can be ignored. ***"
 	VBoxManage storagectl "$(VM_NAME)" --name IDE --add ide --controller PIIX4
