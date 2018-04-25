@@ -1,6 +1,6 @@
 [submodule "home/asdf"]
 	path = home/asdf
-	url = https://github.com/froggey/asdf
+	url = https://gitlab.common-lisp.net/asdf/asdf.git
 [submodule "home/trivial-features"]
 	path = home/trivial-features
 	url = https://github.com/froggey/trivial-features
