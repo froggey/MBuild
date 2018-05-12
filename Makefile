@@ -22,7 +22,7 @@ all:
 	@echo "    The file server needs to run while the VM is running."
 	@echo " 3. Point VirtualBox at mezzano.vmdk and start the VM."
 
-cold-image: build-cold-image.lisp
+cold-image: build-cold-image.lisp asdf
 	@echo File server address: $(FILE_SERVER_IP)
 	@echo Source path: $(CURDIR)/Mezzano/
 	@echo Home directory path: $(CURDIR)/home/
@@ -51,14 +51,17 @@ cold-image-vmdk: cold-image
 run-file-server: run-file-server.lisp
 	cd Mezzano/file-server/ && $(SBCL) --load ../../run-file-server.lisp
 
+asdf:
+	make -C home/asdf
+
 qemu:
 	qemu-system-x86_64 -m 512 -hda mezzano.image -serial stdio -vga std -net user,hostfwd=tcp:127.0.0.1:4005-:4005 -net nic,model=virtio
 kvm:
 	qemu-system-x86_64 -m 512 -hda mezzano.image -serial stdio -vga std -net user,hostfwd=tcp:127.0.0.1:4005-:4005 -net nic,model=virtio -enable-kvm
 
 clean:
-	rm -rf home/.cache/common-lisp/ home/.slime/ home/asdf/asdf.llf
+	rm -rf home/.cache/common-lisp/ home/.slime/ home/asdf/build/
 	find Mezzano/ -name '*.llf' -type f -exec rm {} +
 	rm -rf mezzano.image mezzano.map mezzano.vmdk
 
-.PHONY: run-file-server cold-image cold-image-vmdk qemu kvm clean all
+.PHONY: run-file-server cold-image cold-image-vmdk qemu kvm clean all asdf
