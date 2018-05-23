@@ -1,0 +1,10 @@
+NOTICE AUTH :*** Your forward and reverse DNS don't match
+:tolkien.freenode.net 376 cl-irc :End of /MOTD command.
+:tolkien.freenode.net 372 cl-irc :-
+:leguin.freenode.net 353 cl-irc = #lisppaste :cl-irc kire
+:cl-irc!~cl-irc@216.248.178.227 JOIN :#lisppaste
+:kire!~eenge@216.248.178.227 PRIVMSG cl-irc :heyhey!
+:kire_!~eenge@adsl-156-35-240.asm.bellsouth.net MODE #lisppaste +b *!*@somewhere.com
+:kire_!~eenge@adsl-156-35-240.asm.bellsouth.net MODE #lisppaste +bbb *!*@somewhere.com *!*@somewhereles.com *!*@youdontwannaknow.org
+:kire_!~eenge@adsl-156-35-240.asm.bellsouth.net MODE #lisppaste -m
+:kire_!~eenge@adsl-156-35-240.asm.bellsouth.net MODE #lisppaste +k key

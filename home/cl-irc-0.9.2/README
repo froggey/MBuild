@@ -1,0 +1,4 @@
+cl-irc: A Common Lisp interface to the client-part of the IRC
+protocol; RFCs 2810, 2811 and 2812.  See doc/user-guide.txt for more
+information.
+

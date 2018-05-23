@@ -1,0 +1,727 @@
+(("a" . "Add: http://www.nersc.gov/vendor_docs/ibm/asm/addc.htm#idx255")
+ ("abs" . "Absolute: http://www.nersc.gov/vendor_docs/ibm/asm/abs.htm#idx248")
+ ("add" . "Add: http://www.nersc.gov/vendor_docs/ibm/asm/add.htm#idx250")
+ ("addc"
+  . "Add Carrying: http://www.nersc.gov/vendor_docs/ibm/asm/addc.htm#idx254")
+ ("adde"
+  . "Add Extended: http://www.nersc.gov/vendor_docs/ibm/asm/adde.htm#idx258")
+ ("addi"
+  . "Add Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/addi.htm#idx262")
+ ("addic."
+  . "Add Immediate Carrying and Record: http://www.nersc.gov/vendor_docs/ibm/asm/addic_dot.htm#idx270")
+ ("addic"
+  . "Add Immediate Carrying: http://www.nersc.gov/vendor_docs/ibm/asm/addic.htm#idx266")
+ ("addis"
+  . "Add Immediate Shifted: http://www.nersc.gov/vendor_docs/ibm/asm/addis.htm#idx274")
+ ("addme"
+  . "Add to Minus One Extended: http://www.nersc.gov/vendor_docs/ibm/asm/addme.htm#idx278")
+ ("addze"
+  . "Add to Zero Extended: http://www.nersc.gov/vendor_docs/ibm/asm/addze.htm#idx282")
+ ("ae"
+  . "Add Extended: http://www.nersc.gov/vendor_docs/ibm/asm/adde.htm#idx259")
+ ("ai."
+  . "Add Immediate and Record: http://www.nersc.gov/vendor_docs/ibm/asm/addic_dot.htm#idx271")
+ ("ai"
+  . "Add Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/addic.htm#idx267")
+ ("ame"
+  . "Add to Minus One Extended: http://www.nersc.gov/vendor_docs/ibm/asm/addme.htm#idx279")
+ ("and" . "AND: http://www.nersc.gov/vendor_docs/ibm/asm/and.htm#idx286")
+ ("andc"
+  . "AND with Complement: http://www.nersc.gov/vendor_docs/ibm/asm/andc.htm#idx288")
+ ("andi."
+  . "AND Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/andi.htm#idx290")
+ ("andil."
+  . "AND Immediate Lower: http://www.nersc.gov/vendor_docs/ibm/asm/andi.htm#idx291")
+ ("andis."
+  . "AND Immediate Shifted: http://www.nersc.gov/vendor_docs/ibm/asm/andis.htm#idx294")
+ ("andiu."
+  . "AND Immediate Upper: http://www.nersc.gov/vendor_docs/ibm/asm/andis.htm#idx295")
+ ("aze"
+  . "Add to Zero Extended: http://www.nersc.gov/vendor_docs/ibm/asm/addze.htm#idx283")
+ ("b" . "Branch: http://www.nersc.gov/vendor_docs/ibm/asm/b.htm#idx298")
+ ("bbf"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx122")
+ ("bbfc"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx126")
+ ("bbfr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx125")
+ ("bbt"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx121")
+ ("bbtc"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx124")
+ ("bbtr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx123")
+ ("bc"
+  . "Branch Conditional: http://www.nersc.gov/vendor_docs/ibm/asm/bc.htm#idx301")
+ ("bcc"
+  . "Branch Conditional to Count Register: http://www.nersc.gov/vendor_docs/ibm/asm/bcctr.htm#idx304")
+ ("bcctr"
+  . "Branch Conditional to Count Register: http://www.nersc.gov/vendor_docs/ibm/asm/bcctr.htm#idx303")
+ ("bclr"
+  . "Branch Conditional Register: http://www.nersc.gov/vendor_docs/ibm/asm/bclr.htm#idx307")
+ ("bcr"
+  . "Branch Conditional Register: http://www.nersc.gov/vendor_docs/ibm/asm/bclr.htm#idx308")
+ ("bctr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx128 http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx146")
+ ("bdn"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx118")
+ ("bdnr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx120")
+ ("bdnz"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx129")
+ ("bdnzf"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx136")
+ ("bdnzflr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx144")
+ ("bdnzt"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx135")
+ ("bdnztlr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx143")
+ ("bdz"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx117")
+ ("bdzf"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx134")
+ ("bdzflr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx142")
+ ("bdzlr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx130")
+ ("bdzr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx119")
+ ("bdzt"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx133")
+ ("bdztlr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx141")
+ ("bf"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx132")
+ ("bfctr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx140")
+ ("bflr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx139")
+ ("bl"
+  . "Branch and Link: http://www.nersc.gov/vendor_docs/ibm/asm/b.htm#idx299")
+ ("blr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx145")
+ ("br"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx127")
+ ("bt"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx131")
+ ("btctr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx138")
+ ("btlr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/branch_mnem.htm#idx137")
+ ("cal"
+  . "Compute Address Lower: http://www.nersc.gov/vendor_docs/ibm/asm/addi.htm#idx263")
+ ("cau"
+  . "Compute Address Upper: http://www.nersc.gov/vendor_docs/ibm/asm/addis.htm#idx275")
+ ("cax"
+  . "Compute Address: http://www.nersc.gov/vendor_docs/ibm/asm/add.htm#idx251")
+ ("clcs"
+  . "Cache Line Compute Size: http://www.nersc.gov/vendor_docs/ibm/asm/clcs.htm#idx311")
+ ("clf"
+  . "Cache Line Flush: http://www.nersc.gov/vendor_docs/ibm/asm/clf.htm#idx313")
+ ("cli"
+  . "Cache Line Invalidate: http://www.nersc.gov/vendor_docs/ibm/asm/cli.htm#idx315")
+ ("cmp" . "Compare: http://www.nersc.gov/vendor_docs/ibm/asm/cmp.htm#idx317")
+ ("cmpi"
+  . "Compare Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/cmpi.htm#idx319")
+ ("cmpl"
+  . "Compare Logical: http://www.nersc.gov/vendor_docs/ibm/asm/cmpl.htm#idx321")
+ ("cmpli"
+  . "Compare Logical Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/cmpli.htm#idx323")
+ ("cntlz"
+  . "Count Leading Zeros: http://www.nersc.gov/vendor_docs/ibm/asm/cntlzw.htm#idx328")
+ ("cntlzd"
+  . "Count Leading Zeros Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/cntlzd.htm#idx325 http://www.nersc.gov/vendor_docs/ibm/asm/cntlzd.htm#idx326")
+ ("cntlzw"
+  . "Count Leading Zeros Word: http://www.nersc.gov/vendor_docs/ibm/asm/cntlzw.htm#idx327")
+ ("crand"
+  . "Condition Register AND: http://www.nersc.gov/vendor_docs/ibm/asm/crand.htm#idx333")
+ ("crandc"
+  . "Condition Register AND with Complement: http://www.nersc.gov/vendor_docs/ibm/asm/crandc.htm#idx337")
+ ("creqv"
+  . "Condition Register Equivalent: http://www.nersc.gov/vendor_docs/ibm/asm/creqv.htm#idx339")
+ ("crnand"
+  . "Condition Register NAND: http://www.nersc.gov/vendor_docs/ibm/asm/crnand.htm#idx341")
+ ("crnor"
+  . "Condition Register: http://www.nersc.gov/vendor_docs/ibm/asm/crnor.htm#idx343")
+ ("cror"
+  . "Condition Register OR: http://www.nersc.gov/vendor_docs/ibm/asm/cror.htm#idx347")
+ ("crorc"
+  . "Condition Register OR with Complement: http://www.nersc.gov/vendor_docs/ibm/asm/crorc.htm#idx349")
+ ("crxor"
+  . "Condition Register XOR: http://www.nersc.gov/vendor_docs/ibm/asm/crxor.htm#idx351")
+ ("dcbf"
+  . "Data Cache Block Flush: http://www.nersc.gov/vendor_docs/ibm/asm/dcbf.htm#idx353")
+ ("dcbi"
+  . "Data Cache Block Invalidate: http://www.nersc.gov/vendor_docs/ibm/asm/dcbi.htm#idx356")
+ ("dcbst"
+  . "Data Cache Block Store: http://www.nersc.gov/vendor_docs/ibm/asm/dcbst.htm#idx358")
+ ("dcbt"
+  . "Data Cache Block Touch: http://www.nersc.gov/vendor_docs/ibm/asm/dcbt.htm#idx360")
+ ("dcbtst"
+  . "Data Cache Block Touch for Store: http://www.nersc.gov/vendor_docs/ibm/asm/dcbtst.htm#idx362")
+ ("dcbz"
+  . "Data Cache Block Set to Zero: http://www.nersc.gov/vendor_docs/ibm/asm/dcbz.htm#idx364")
+ ("dclst"
+  . "Data Cache Line Store: http://www.nersc.gov/vendor_docs/ibm/asm/dclst.htm#idx368")
+ ("dclz"
+  . "Data Cache Line Set to Zero: http://www.nersc.gov/vendor_docs/ibm/asm/dcbz.htm#idx365")
+ ("dcs"
+  . "Data Cache Synchronize: http://www.nersc.gov/vendor_docs/ibm/asm/sync.htm#idx974")
+ ("div" . "Divide: http://www.nersc.gov/vendor_docs/ibm/asm/div.htm#idx370")
+ ("divd"
+  . "Divide Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/divd.htm#idx372 http://www.nersc.gov/vendor_docs/ibm/asm/divd.htm#idx373")
+ ("divdu"
+  . "Divide Double Word Unsigned: http://www.nersc.gov/vendor_docs/ibm/asm/divdu.htm#idx374 http://www.nersc.gov/vendor_docs/ibm/asm/divdu.htm#idx375")
+ ("divs"
+  . "Divide Short: http://www.nersc.gov/vendor_docs/ibm/asm/divs.htm#idx376")
+ ("divw"
+  . "Divide Word: http://www.nersc.gov/vendor_docs/ibm/asm/divw.htm#idx378")
+ ("divwu"
+  . "Divide Word Unsigned: http://www.nersc.gov/vendor_docs/ibm/asm/divwu.htm#idx380")
+ ("doz"
+  . "Difference or Zero: http://www.nersc.gov/vendor_docs/ibm/asm/doz.htm#idx382")
+ ("dozi"
+  . "Difference or Zero Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/dozi.htm#idx384")
+ ("eciwx"
+  . "External Control In Word Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/eciwx.htm#idx386")
+ ("ecowx"
+  . "External Control Out Word Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/ecowx.htm#idx388")
+ ("eieio"
+  . "Enforce In-Order Execution of I/O: http://www.nersc.gov/vendor_docs/ibm/asm/eieio.htm#idx390")
+ ("eqv"
+  . "Equivalent: http://www.nersc.gov/vendor_docs/ibm/asm/eqv.htm#idx394")
+ ("exts"
+  . "Extend Sign: http://www.nersc.gov/vendor_docs/ibm/asm/extsh.htm#idx399")
+ ("extsb"
+  . "Extend Sign Byte: http://www.nersc.gov/vendor_docs/ibm/asm/extsb.htm#idx396")
+ ("extsh"
+  . "Extend Sign Halfword: http://www.nersc.gov/vendor_docs/ibm/asm/extsh.htm#idx398")
+ ("extsw"
+  . "Extend Sign Word: http://www.nersc.gov/vendor_docs/ibm/asm/extsw.htm#idx392 http://www.nersc.gov/vendor_docs/ibm/asm/extsw.htm#idx393")
+ ("fa"
+  . "Floating Add: http://www.nersc.gov/vendor_docs/ibm/asm/fadd.htm#idx406")
+ ("fabs"
+  . "Floating Absolute Value: http://www.nersc.gov/vendor_docs/ibm/asm/fabs.htm#idx402")
+ ("fadd"
+  . "Floating Add Double: http://www.nersc.gov/vendor_docs/ibm/asm/fadd.htm#idx404")
+ ("fadds"
+  . "Floating Add Single: http://www.nersc.gov/vendor_docs/ibm/asm/fadd.htm#idx405")
+ ("fcfid"
+  . "Floating Convert from Integer Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/fcfid.htm#idx410 http://www.nersc.gov/vendor_docs/ibm/asm/fcfid.htm#idx411")
+ ("fcir"
+  . "Floating Convert Double to Integer with Round: http://www.nersc.gov/vendor_docs/ibm/asm/fctiw.htm#idx421")
+ ("fcirz"
+  . "Floating Convert Double to Integer with Round to Zero: http://www.nersc.gov/vendor_docs/ibm/asm/fctiwz.htm#idx425")
+ ("fcmpo"
+  . "Floating Compare Ordered: http://www.nersc.gov/vendor_docs/ibm/asm/fcmpo.htm#idx412")
+ ("fcmpu"
+  . "Floating Compare Unordered: http://www.nersc.gov/vendor_docs/ibm/asm/fcmpu.htm#idx414")
+ ("fctid"
+  . "Floating Convert to Integer Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/fctid.htm#idx416 http://www.nersc.gov/vendor_docs/ibm/asm/fctid.htm#idx417")
+ ("fctidz"
+  . "Floating Convert to Integer Double Word with Round toward Zero: http://www.nersc.gov/vendor_docs/ibm/asm/fctidz.htm#idx418 http://www.nersc.gov/vendor_docs/ibm/asm/fctidz.htm#idx419")
+ ("fctiw"
+  . "Floating Convert to Integer Word: http://www.nersc.gov/vendor_docs/ibm/asm/fctiw.htm#idx420")
+ ("fctiwz"
+  . "Floating Convert to Integer Word with Round to Zero: http://www.nersc.gov/vendor_docs/ibm/asm/fctiwz.htm#idx424")
+ ("fd"
+  . "Floating Divide: http://www.nersc.gov/vendor_docs/ibm/asm/fdiv.htm#idx428")
+ ("fdiv"
+  . "Floating Divide Double: http://www.nersc.gov/vendor_docs/ibm/asm/fdiv.htm#idx429")
+ ("fdivs"
+  . "Floating Divide Single: http://www.nersc.gov/vendor_docs/ibm/asm/fdiv.htm#idx430")
+ ("stfsx"
+  . "Store Floating-Point Single Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stfsx.htm#idx902")
+ ("fm"
+  . "Floating Multiply: http://www.nersc.gov/vendor_docs/ibm/asm/fmul.htm#idx449")
+ ("fma"
+  . "Floating Multiply-Add: http://www.nersc.gov/vendor_docs/ibm/asm/fmadd.htm#idx436")
+ ("fmadd"
+  . "Floating Multiply-Add Double: http://www.nersc.gov/vendor_docs/ibm/asm/fmadd.htm#idx434")
+ ("fmadds"
+  . "Floating Multiply-Add Single: http://www.nersc.gov/vendor_docs/ibm/asm/fmadd.htm#idx435")
+ ("fmr"
+  . "Floating Move Register: http://www.nersc.gov/vendor_docs/ibm/asm/fmr.htm#idx440")
+ ("fms"
+  . "Floating Multiply-Subtract: http://www.nersc.gov/vendor_docs/ibm/asm/fmsub.htm#idx444")
+ ("fmsub"
+  . "Floating Multiply-Subtract Double: http://www.nersc.gov/vendor_docs/ibm/asm/fmsub.htm#idx442")
+ ("fmsubs"
+  . "Floating Multiply-Subtract Single: http://www.nersc.gov/vendor_docs/ibm/asm/fmsub.htm#idx443")
+ ("fmul"
+  . "Floating Multiply: http://www.nersc.gov/vendor_docs/ibm/asm/fmul.htm#idx448")
+ ("fnabs"
+  . "Floating Negative Absolute Value: http://www.nersc.gov/vendor_docs/ibm/asm/fnabs.htm#idx453")
+ ("fneg"
+  . "Floating Negate: http://www.nersc.gov/vendor_docs/ibm/asm/fneg.htm#idx455")
+ ("fnma"
+  . "Floating Negative Multiply-Add: http://www.nersc.gov/vendor_docs/ibm/asm/fnmadd.htm#idx459")
+ ("fnmadd"
+  . "Floating Negative Multiply-Add Double: http://www.nersc.gov/vendor_docs/ibm/asm/fnmadd.htm#idx457")
+ ("fnmadds"
+  . "Floating Negative Multiply-Add Single: http://www.nersc.gov/vendor_docs/ibm/asm/fnmadd.htm#idx458")
+ ("fnms"
+  . "Floating Negative Multiply-Subtract: http://www.nersc.gov/vendor_docs/ibm/asm/fnmsub.htm#idx465")
+ ("fnmsub"
+  . "Floating Negative Multiply-Subtract Double: http://www.nersc.gov/vendor_docs/ibm/asm/fnmsub.htm#idx463")
+ ("fnmsubs"
+  . "Floating Negative Multiply-Subtract Single: http://www.nersc.gov/vendor_docs/ibm/asm/fnmsub.htm#idx464")
+ ("fres"
+  . "Floating Reciprocal Estimate Single: http://www.nersc.gov/vendor_docs/ibm/asm/fres.htm#idx469")
+ ("frsp"
+  . "Floating Round to Single Precision: http://www.nersc.gov/vendor_docs/ibm/asm/frsp.htm#idx472")
+ ("frsqrte"
+  . "Floating Reciprocal Square Root Estimate: http://www.nersc.gov/vendor_docs/ibm/asm/frsqrte.htm#idx474")
+ ("fs"
+  . "Floating Subtract: http://www.nersc.gov/vendor_docs/ibm/asm/fsub.htm#idx489")
+ ("fsel"
+  . "Floating-Point Select: http://www.nersc.gov/vendor_docs/ibm/asm/fsel.htm#idx478")
+ ("fsqrt"
+  . "Floating Square Root, Double-Precision: http://www.nersc.gov/vendor_docs/ibm/asm/fsqrt.htm#idx483 http://www.nersc.gov/vendor_docs/ibm/asm/fsqrt.htm#idx484")
+ ("fsqrts"
+  . "Floating Square Root Single: http://www.nersc.gov/vendor_docs/ibm/asm/fsqrts.htm#idx485 http://www.nersc.gov/vendor_docs/ibm/asm/fsqrts.htm#idx486")
+ ("fsub"
+  . "Floating Subtract Double: http://www.nersc.gov/vendor_docs/ibm/asm/fsub.htm#idx487")
+ ("fsubs"
+  . "Floating Subtract Single: http://www.nersc.gov/vendor_docs/ibm/asm/fsub.htm#idx488")
+ ("maskir"
+  . "Mask Insert from Register: http://www.nersc.gov/vendor_docs/ibm/asm/maskir.htm#idx643")
+ ("icbi"
+  . "Instruction Cache Block Invalidate: http://www.nersc.gov/vendor_docs/ibm/asm/icbi.htm#idx493")
+ ("ics"
+  . "Instruction Cache Synchronize: http://www.nersc.gov/vendor_docs/ibm/asm/isync.htm#idx496")
+ ("isync"
+  . "Instruction Synchronize: http://www.nersc.gov/vendor_docs/ibm/asm/isync.htm#idx495")
+ ("l" . "Load: http://www.nersc.gov/vendor_docs/ibm/asm/lwz.htm#idx618")
+ ("lbrx"
+  . "Load Byte-Reverse Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lwbrx.htm#idx614")
+ ("lbz"
+  . "Load Byte and Zero: http://www.nersc.gov/vendor_docs/ibm/asm/lbz.htm#idx499")
+ ("lbzux"
+  . "Load Byte and Zero with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lbzux.htm#idx504")
+ ("lbzx"
+  . "Load Byte and Zero Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lbzx.htm#idx507")
+ ("ld"
+  . "Load Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/ld.htm#idx510 http://www.nersc.gov/vendor_docs/ibm/asm/ld.htm#idx511")
+ ("ldarx"
+  . "Store Double Word Reserve Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/ldarx.htm#idx512 http://www.nersc.gov/vendor_docs/ibm/asm/ldarx.htm#idx513")
+ ("ldu"
+  . "Store Double Word with Update: http://www.nersc.gov/vendor_docs/ibm/asm/ldu.htm#idx514 http://www.nersc.gov/vendor_docs/ibm/asm/ldu.htm#idx515")
+ ("ldux"
+  . "Store Double Word with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/ldux.htm#idx516 http://www.nersc.gov/vendor_docs/ibm/asm/ldux.htm#idx517")
+ ("ldx"
+  . "Store Double Word Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/ldx.htm#idx518 http://www.nersc.gov/vendor_docs/ibm/asm/ldx.htm#idx519")
+ ("lfd"
+  . "Load Floating-Point Double: http://www.nersc.gov/vendor_docs/ibm/asm/lfd.htm#idx520")
+ ("lfdu"
+  . "Load Floating-Point Double with Update: http://www.nersc.gov/vendor_docs/ibm/asm/lfdu.htm#idx523")
+ ("lfdux"
+  . "Load Floating-Point Double with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lfdux.htm#idx526")
+ ("lfdx"
+  . "Load Floating-Point Double Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lfdx.htm#idx529")
+ ("lfq"
+  . "Load Floating-Point Quad: http://www.nersc.gov/vendor_docs/ibm/asm/lfq.htm#idx532")
+ ("lfqu"
+  . "Load Floating-Point Quad with Update: http://www.nersc.gov/vendor_docs/ibm/asm/lfqu.htm#idx536")
+ ("lfqux"
+  . "Load Floating-Point Quad with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lfqux.htm#idx540")
+ ("lfqx"
+  . "Load Floating-Point Quad Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lfqx.htm#idx544")
+ ("lfs"
+  . "Loading Floating-Point Single: http://www.nersc.gov/vendor_docs/ibm/asm/lfs.htm#idx548")
+ ("lfsu"
+  . "Load Floating-Point Single with Update: http://www.nersc.gov/vendor_docs/ibm/asm/lfsu.htm#idx551")
+ ("lfsux"
+  . "Load Floating-Point Single with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lfsux.htm#idx554")
+ ("lfsx"
+  . "Load Floating-Point Single Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lfsx.htm#idx557")
+ ("lha"
+  . "Load Half Algebraic: http://www.nersc.gov/vendor_docs/ibm/asm/lha.htm#idx559")
+ ("lhau"
+  . "Load Half Algebraic with Update: http://www.nersc.gov/vendor_docs/ibm/asm/lhau.htm#idx562")
+ ("lhaux"
+  . "Load Half Algebraic with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lhaux.htm#idx565")
+ ("lhax"
+  . "Load Half Algebraic Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lhax.htm#idx568")
+ ("lhbrx"
+  . "Load Half Byte-Reverse Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lhbrx.htm#idx571")
+ ("lhz"
+  . "Load Half and Zero: http://www.nersc.gov/vendor_docs/ibm/asm/lhz.htm#idx574")
+ ("lhzu"
+  . "Load Half and Zero with Update: http://www.nersc.gov/vendor_docs/ibm/asm/lhzu.htm#idx577")
+ ("lhzux"
+  . "Load Half and Zero with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lhzux.htm#idx580")
+ ("lhzx"
+  . "Load Half and Zero Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lhzx.htm#idx583")
+ ("lm"
+  . "Load Multiple: http://www.nersc.gov/vendor_docs/ibm/asm/lmw.htm#idx587")
+ ("lmw"
+  . "Load Multiple Word: http://www.nersc.gov/vendor_docs/ibm/asm/lmw.htm#idx586")
+ ("lq"
+  . "Load Quad Word: http://www.nersc.gov/vendor_docs/ibm/asm/lq.htm#idx590")
+ ("lscbx"
+  . "Load String and Compare Byte Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lscbx.htm#idx591")
+ ("lsi"
+  . "Load String Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/lswi.htm#idx594")
+ ("lswi"
+  . "Load String Word Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/lswi.htm#idx593")
+ ("lswx"
+  . "Load String Word Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lswx.htm#idx599")
+ ("lsx"
+  . "Load String Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lswx.htm#idx600")
+ ("lu"
+  . "Load with Update: http://www.nersc.gov/vendor_docs/ibm/asm/lwzu.htm#idx622")
+ ("lux"
+  . "Load with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lwzux.htm#idx628")
+ ("lwa"
+  . "Load Word Algebraic: http://www.nersc.gov/vendor_docs/ibm/asm/lwa.htm#idx605 http://www.nersc.gov/vendor_docs/ibm/asm/lwa.htm#idx606")
+ ("lwarx"
+  . "Load Word and Reserve Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lwarx.htm#idx607")
+ ("lwaux"
+  . "Load Word Algebraic with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lwaux.htm#idx609 http://www.nersc.gov/vendor_docs/ibm/asm/lwaux.htm#idx610")
+ ("lwax"
+  . "Load Word Algebraic Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lwax.htm#idx611 http://www.nersc.gov/vendor_docs/ibm/asm/lwax.htm#idx612")
+ ("lwbrx"
+  . "Load Word Byte-Reverse Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lwbrx.htm#idx613")
+ ("lwz"
+  . "Load Word and Zero: http://www.nersc.gov/vendor_docs/ibm/asm/lwz.htm#idx617")
+ ("lwzu"
+  . "Load Word with Zero Update: http://www.nersc.gov/vendor_docs/ibm/asm/lwzu.htm#idx621")
+ ("lwzux"
+  . "Load Word and Zero with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lwzux.htm#idx627")
+ ("lwzx"
+  . "Load Word and Zero Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lwzx.htm#idx633")
+ ("lx"
+  . "Load Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/lwzx.htm#idx634")
+ ("maskg"
+  . "Mask Generate: http://www.nersc.gov/vendor_docs/ibm/asm/maskg.htm#idx639")
+ ("maskir"
+  . "Mask Insert from Register: http://www.nersc.gov/vendor_docs/ibm/asm/maskir.htm#idx642")
+ ("mcrf"
+  . "Move Condition Register Field: http://www.nersc.gov/vendor_docs/ibm/asm/mcrf.htm#idx644")
+ ("mcrfs"
+  . "Move to Condition Register from FPSCR: http://www.nersc.gov/vendor_docs/ibm/asm/mcrfs.htm#idx646")
+ ("mcrxr"
+  . "Move to Condition Register from XER: http://www.nersc.gov/vendor_docs/ibm/asm/mcrxr.htm#idx648")
+ ("mfcr"
+  . "Move from Condition Register: http://www.nersc.gov/vendor_docs/ibm/asm/mfcr.htm#idx653")
+ ("mffs"
+  . "Move from FPSCR: http://www.nersc.gov/vendor_docs/ibm/asm/mffs.htm#idx655")
+ ("mfmsr"
+  . "Move from Machine State Register: http://www.nersc.gov/vendor_docs/ibm/asm/mfmsr.htm#idx658")
+ ("mfocrf"
+  . "Move from One Condition Register Field: http://www.nersc.gov/vendor_docs/ibm/asm/mfocrf.htm#idx661")
+ ("mfspr"
+  . "Move from Special-Purpose Register: http://www.nersc.gov/vendor_docs/ibm/asm/mfspr.htm#idx663")
+ ("mfsr"
+  . "Move from Segment Register: http://www.nersc.gov/vendor_docs/ibm/asm/mfsr.htm#idx666")
+ ("mfsri"
+  . "Move from Segment Register Indirect: http://www.nersc.gov/vendor_docs/ibm/asm/mfsri.htm#idx668")
+ ("mfsrin"
+  . "Move from Segment Register Indirect: http://www.nersc.gov/vendor_docs/ibm/asm/mfsrin.htm#idx670")
+ ("mr"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/fixed_point_instr.htm#idx179")
+ ("mr"
+  . "Move Register: http://www.nersc.gov/vendor_docs/ibm/asm/or.htm#idx719")
+ ("mtcrf"
+  . "Move to Condition Register Fields: http://www.nersc.gov/vendor_docs/ibm/asm/mtcrf.htm#idx672")
+ ("mtfsb0"
+  . "Move to FPSCR Bit 0: http://www.nersc.gov/vendor_docs/ibm/asm/mtfsb0.htm#idx675")
+ ("mtfsb1"
+  . "Move to FPSCR Bit 1: http://www.nersc.gov/vendor_docs/ibm/asm/mtfsb1.htm#idx677")
+ ("mtfsf"
+  . "Move to FPSCR Fields: http://www.nersc.gov/vendor_docs/ibm/asm/mtfsf.htm#idx679")
+ ("mtfsfi"
+  . "Move to FPSCR Field Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/mtfsfi.htm#idx682")
+ ("mtocrf"
+  . "Move to One Condition Register Field: http://www.nersc.gov/vendor_docs/ibm/asm/mtocrf.htm#idx684")
+ ("mtspr"
+  . "Move to Special-Purpose Register: http://www.nersc.gov/vendor_docs/ibm/asm/mtspr.htm#idx686")
+ ("mul" . "Multiply: http://www.nersc.gov/vendor_docs/ibm/asm/mul.htm#idx689")
+ ("mulhd"
+  . "Multiply High Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/mulhd.htm#idx691 http://www.nersc.gov/vendor_docs/ibm/asm/mulhd.htm#idx692")
+ ("mulhdu"
+  . "Multiply High Double Word Unsigned: http://www.nersc.gov/vendor_docs/ibm/asm/mulhdu.htm#idx693 http://www.nersc.gov/vendor_docs/ibm/asm/mulhdu.htm#idx694")
+ ("mulhw"
+  . "Multiply High Word: http://www.nersc.gov/vendor_docs/ibm/asm/mulhw.htm#idx695")
+ ("mulhwu"
+  . "Multiply High Word Unsigned: http://www.nersc.gov/vendor_docs/ibm/asm/mulhwu.htm#idx697")
+ ("muli"
+  . "Multiply Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/mulli.htm#idx703")
+ ("mulld"
+  . "Multiply Low Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/mulld.htm#idx699 http://www.nersc.gov/vendor_docs/ibm/asm/mulld.htm#idx700")
+ ("mulldo"
+  . "Multiply Low Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/mulld.htm#idx701")
+ ("mulli"
+  . "Multiply Low Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/mulli.htm#idx702")
+ ("mullw"
+  . "Multiply Low Word: http://www.nersc.gov/vendor_docs/ibm/asm/mullw.htm#idx706")
+ ("muls"
+  . "Multiply Short: http://www.nersc.gov/vendor_docs/ibm/asm/mullw.htm#idx707")
+ ("nabs"
+  . "Negative Absolute: http://www.nersc.gov/vendor_docs/ibm/asm/nabs.htm#idx710")
+ ("nand" . "NAND: http://www.nersc.gov/vendor_docs/ibm/asm/nand.htm#idx712")
+ ("neg" . "Negate: http://www.nersc.gov/vendor_docs/ibm/asm/neg.htm#idx714")
+ ("nor" . "NOR: http://www.nersc.gov/vendor_docs/ibm/asm/nor.htm#idx716")
+ ("not"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/fixed_point_instr.htm#idx180")
+ ("or" . "OR: http://www.nersc.gov/vendor_docs/ibm/asm/or.htm#idx718")
+ ("orc"
+  . "OR with Complement: http://www.nersc.gov/vendor_docs/ibm/asm/orc.htm#idx721")
+ ("ori"
+  . "OR Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/ori.htm#idx723")
+ ("oril"
+  . "OR Immediate Lower: http://www.nersc.gov/vendor_docs/ibm/asm/ori.htm#idx724")
+ ("oris"
+  . "OR Immediate Shifted: http://www.nersc.gov/vendor_docs/ibm/asm/oris.htm#idx727")
+ ("oriu"
+  . "OR Immediate Upper: http://www.nersc.gov/vendor_docs/ibm/asm/oris.htm#idx728")
+ ("rac"
+  . "Real Address Compute: http://www.nersc.gov/vendor_docs/ibm/asm/rac.htm#idx731")
+ ("rfi"
+  . "Return from Interrupt: http://www.nersc.gov/vendor_docs/ibm/asm/rfi.htm#idx733")
+ ("rfid"
+  . "Return from Interrupt Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/rfid.htm#idx735 http://www.nersc.gov/vendor_docs/ibm/asm/rfid.htm#idx736")
+ ("rfsvc"
+  . "Return from SVC: http://www.nersc.gov/vendor_docs/ibm/asm/rfsvc.htm#idx737")
+ ("rldcl"
+  . "Rotate Left Double Word then Clear Left: http://www.nersc.gov/vendor_docs/ibm/asm/rldcl.htm#idx739 http://www.nersc.gov/vendor_docs/ibm/asm/rldcl.htm#idx740")
+ ("rldcr"
+  . "Rotate Left Double Word then Clear Right: http://www.nersc.gov/vendor_docs/ibm/asm/rldcr.htm#idx743 http://www.nersc.gov/vendor_docs/ibm/asm/rldcr.htm#idx744")
+ ("rldic"
+  . "Rotate Left Double Word Immediate then Clear: http://www.nersc.gov/vendor_docs/ibm/asm/rldic.htm#idx745 http://www.nersc.gov/vendor_docs/ibm/asm/rldic.htm#idx746")
+ ("rldicl"
+  . "Rotate Left Double Word Immediate then Clear Left: http://www.nersc.gov/vendor_docs/ibm/asm/rldclr.htm#idx741 http://www.nersc.gov/vendor_docs/ibm/asm/rldclr.htm#idx742 http://www.nersc.gov/vendor_docs/ibm/asm/rldicl.htm#idx747 http://www.nersc.gov/vendor_docs/ibm/asm/rldicl.htm#idx748")
+ ("rldicr"
+  . "Rotate Left Double Word Immediate then Clear Right: http://www.nersc.gov/vendor_docs/ibm/asm/rldiclr.htm#idx749 http://www.nersc.gov/vendor_docs/ibm/asm/rldiclr.htm#idx750")
+ ("rldimi"
+  . "Rotate Left Double Word Immediate then Mask Insert: http://www.nersc.gov/vendor_docs/ibm/asm/rldimi.htm#idx751 http://www.nersc.gov/vendor_docs/ibm/asm/rldimi.htm#idx752")
+ ("rlimi"
+  . "Rotate Left Immediate Then Mask Insert: http://www.nersc.gov/vendor_docs/ibm/asm/rlwimi.htm#idx756")
+ ("rlinm"
+  . "Rotate Left Immediate Then AND with Mask: http://www.nersc.gov/vendor_docs/ibm/asm/rlwinm.htm#idx760")
+ ("rlmi"
+  . "Rotate Left Then Mask Insert: http://www.nersc.gov/vendor_docs/ibm/asm/rlmi.htm#idx753")
+ ("rlnm"
+  . "Rotate Left Then AND with Mask: http://www.nersc.gov/vendor_docs/ibm/asm/rlwnm.htm#idx764")
+ ("rlwimi"
+  . "Rotate Left Word Immediate Then Mask Insert: http://www.nersc.gov/vendor_docs/ibm/asm/rlwimi.htm#idx755")
+ ("rlwinm"
+  . "Rotate Left Word Immediate Then AND with Mask: http://www.nersc.gov/vendor_docs/ibm/asm/rlwinm.htm#idx759")
+ ("rlwnm"
+  . "Rotate Left Word Then AND with Mask: http://www.nersc.gov/vendor_docs/ibm/asm/rlwnm.htm#idx763")
+ ("rrib"
+  . "Rotate Right and Insert Bit: http://www.nersc.gov/vendor_docs/ibm/asm/rrib.htm#idx769")
+ ("sc" . "System Call: http://www.nersc.gov/vendor_docs/ibm/asm/sc.htm#idx771")
+ ("scv"
+  . "System Call Vectored: http://www.nersc.gov/vendor_docs/ibm/asm/scv.htm#idx773")
+ ("sf"
+  . "Subtract from: http://www.nersc.gov/vendor_docs/ibm/asm/subfc.htm#idx952")
+ ("sfe"
+  . "Subtract from Extended: http://www.nersc.gov/vendor_docs/ibm/asm/subfe.htm#idx956")
+ ("sfi"
+  . "Subtract from Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/subfic.htm#idx960")
+ ("sfme"
+  . "Subtract from Minus One Extended: http://www.nersc.gov/vendor_docs/ibm/asm/subfme.htm#idx964")
+ ("sfze"
+  . "Subtract from Zero Extended: http://www.nersc.gov/vendor_docs/ibm/asm/subfze.htm#idx968")
+ ("si"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/fixed_point_arith.htm#idx161")
+ ("si."
+  . "Subtract Immediate and Record: http://www.nersc.gov/vendor_docs/ibm/asm/si_period.htm#idx777")
+ ("si"
+  . "Subtract Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/si.htm#idx775")
+ ("sl" . "Shift Left: http://www.nersc.gov/vendor_docs/ibm/asm/slw.htm#idx798")
+ ("sld"
+  . "Shift Left Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/sld.htm#idx779 http://www.nersc.gov/vendor_docs/ibm/asm/sld.htm#idx780")
+ ("sle"
+  . "Shift Left Extended: http://www.nersc.gov/vendor_docs/ibm/asm/sle.htm#idx781")
+ ("sleq"
+  . "Shift Left Extended with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/sleq.htm#idx784")
+ ("sliq"
+  . "Shift Left Immediate with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/sliq.htm#idx786")
+ ("slliq"
+  . "Shift Left Long Immediate with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/slliq.htm#idx789")
+ ("sllq"
+  . "Shift Left Long with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/sllq.htm#idx792")
+ ("slq"
+  . "Shift Left with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/slq.htm#idx794")
+ ("slw"
+  . "Shift Left Word: http://www.nersc.gov/vendor_docs/ibm/asm/slw.htm#idx797")
+ ("sr"
+  . "Shift Right: http://www.nersc.gov/vendor_docs/ibm/asm/srw.htm#idx848")
+ ("sra"
+  . "Shift Right Algebraic: http://www.nersc.gov/vendor_docs/ibm/asm/sraw.htm#idx812")
+ ("srad"
+  . "Shift Right Algebraic Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/srad.htm#idx801 http://www.nersc.gov/vendor_docs/ibm/asm/srad.htm#idx802")
+ ("sradi"
+  . "Shift Right Algebraic Double Word Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/sradi.htm#idx803 http://www.nersc.gov/vendor_docs/ibm/asm/sradi.htm#idx804")
+ ("srai"
+  . "Shift Right Algebraic Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/srawi.htm#idx818")
+ ("sraiq"
+  . "Shift Right Algebraic Immediate with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/sraiq.htm#idx805")
+ ("sraq"
+  . "Shift Right Algebraic with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/sraq.htm#idx808")
+ ("sraw"
+  . "Shift Right Algebraic Word: http://www.nersc.gov/vendor_docs/ibm/asm/sraw.htm#idx811")
+ ("srawi"
+  . "Shift Right Algebraic Word Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/srawi.htm#idx817")
+ ("srd"
+  . "Shift Right Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/srd.htm#idx823 http://www.nersc.gov/vendor_docs/ibm/asm/srd.htm#idx824")
+ ("sre"
+  . "Shift Right Extended: http://www.nersc.gov/vendor_docs/ibm/asm/sre.htm#idx825")
+ ("srea"
+  . "Shift Right Extended Algebraic: http://www.nersc.gov/vendor_docs/ibm/asm/srea.htm#idx827")
+ ("sreq"
+  . "Shift Right Extended with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/sreq.htm#idx830")
+ ("sriq"
+  . "Shift Right Immediate with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/sriq.htm#idx833")
+ ("srliq"
+  . "Shift Right Long Immediate with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/srliq.htm#idx836")
+ ("srlq"
+  . "Shift Right Long with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/srlq.htm#idx839")
+ ("srq"
+  . "Shift Right with MQ: http://www.nersc.gov/vendor_docs/ibm/asm/srq.htm#idx843")
+ ("srw"
+  . "Shift Right Word: http://www.nersc.gov/vendor_docs/ibm/asm/srw.htm#idx847")
+ ("st" . "Store: http://www.nersc.gov/vendor_docs/ibm/asm/stw.htm#idx928")
+ ("stb"
+  . "Store Byte: http://www.nersc.gov/vendor_docs/ibm/asm/stb.htm#idx851")
+ ("stbrx"
+  . "Store Byte-Reverse Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stwbrx.htm#idx932")
+ ("stbu"
+  . "Store Byte with Update: http://www.nersc.gov/vendor_docs/ibm/asm/stbu.htm#idx853")
+ ("stbux"
+  . "Store Byte with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stbux.htm#idx855")
+ ("stbx"
+  . "Store Byte Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stbx.htm#idx857")
+ ("std"
+  . "Store Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/std.htm#idx859 http://www.nersc.gov/vendor_docs/ibm/asm/std.htm#idx860")
+ ("stdcx."
+  . "Store Double Word Conditional Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stdcx_dot.htm#idx861 http://www.nersc.gov/vendor_docs/ibm/asm/stdcx_dot.htm#idx862")
+ ("stdu"
+  . "Store Double Word with Update: http://www.nersc.gov/vendor_docs/ibm/asm/stdu.htm#idx863 http://www.nersc.gov/vendor_docs/ibm/asm/stdu.htm#idx864")
+ ("stdux"
+  . "Store Double Word with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stdux.htm#idx865 http://www.nersc.gov/vendor_docs/ibm/asm/stdux.htm#idx866")
+ ("stdx"
+  . "Store Double Word Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stdx.htm#idx867 http://www.nersc.gov/vendor_docs/ibm/asm/stdx.htm#idx868")
+ ("stfd"
+  . "Store Floating-Point Double: http://www.nersc.gov/vendor_docs/ibm/asm/stfd.htm#idx869")
+ ("stfdu"
+  . "Store Floating-Point Double with Update: http://www.nersc.gov/vendor_docs/ibm/asm/stfdu.htm#idx871")
+ ("stfdux"
+  . "Store Floating-Point Double with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stfdux.htm#idx873")
+ ("stfdx"
+  . "Store Floating-Point Double Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stfdx.htm#idx875")
+ ("stfiwx"
+  . "Store Floating-Point as Integer Word Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stfiwx.htm#idx877")
+ ("stfq"
+  . "Store Floating-Point Quad: http://www.nersc.gov/vendor_docs/ibm/asm/stfq.htm#idx879")
+ ("stfqu"
+  . "Store Floating-Point Quad with Update: http://www.nersc.gov/vendor_docs/ibm/asm/stfqu.htm#idx883")
+ ("stfqux"
+  . "Store Floating-Point Quad with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stfqux.htm#idx887")
+ ("stfqx"
+  . "Store Floating-Point Quad Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stfqx.htm#idx891")
+ ("stfs"
+  . "Store Floating-Point Single: http://www.nersc.gov/vendor_docs/ibm/asm/stfs.htm#idx895")
+ ("stfsu"
+  . "Store Floating-Point Single with Update: http://www.nersc.gov/vendor_docs/ibm/asm/stfsu.htm#idx897")
+ ("stfsux"
+  . "Store Floating-Point Single with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stfsux.htm#idx899")
+ ("stfsx"
+  . "Store Floating-Point Single Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stfsx.htm#idx901")
+ ("sth"
+  . "Store Half: http://www.nersc.gov/vendor_docs/ibm/asm/sth.htm#idx903")
+ ("sthbrx"
+  . "Store Half Byte-Reverse Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/sthbrx.htm#idx905")
+ ("sthu"
+  . "Store Half with Update: http://www.nersc.gov/vendor_docs/ibm/asm/sthu.htm#idx907")
+ ("sthux"
+  . "Store Half with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/sthux.htm#idx909")
+ ("sthx"
+  . "Store Half Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/sthx.htm#idx911")
+ ("stm"
+  . "Store Multiple: http://www.nersc.gov/vendor_docs/ibm/asm/stmw.htm#idx914")
+ ("stmw"
+  . "Store Multiple Word: http://www.nersc.gov/vendor_docs/ibm/asm/stmw.htm#idx913")
+ ("stq"
+  . "Store Quad Word: http://www.nersc.gov/vendor_docs/ibm/asm/stq.htm#idx917")
+ ("stsi"
+  . "Store String Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/stswi.htm#idx920")
+ ("stswi"
+  . "Store String Word Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/stswi.htm#idx919")
+ ("stswx"
+  . "Store String Word Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stswx.htm#idx923")
+ ("stsx"
+  . "Store String Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stswx.htm#idx924")
+ ("stu"
+  . "Store with Update: http://www.nersc.gov/vendor_docs/ibm/asm/stwu.htm#idx938")
+ ("stux"
+  . "Store with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stwux.htm#idx942")
+ ("stw"
+  . "Store Word: http://www.nersc.gov/vendor_docs/ibm/asm/stw.htm#idx927")
+ ("stwbrx"
+  . "Store Word Byte-Reverse Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stwbrx.htm#idx931")
+ ("stwcx."
+  . "Store Word Conditional Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stwcx.htm#idx935")
+ ("stwu"
+  . "Store Word with Update: http://www.nersc.gov/vendor_docs/ibm/asm/stwu.htm#idx937")
+ ("stwux"
+  . "Store Word with Update Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stwux.htm#idx941")
+ ("stwx"
+  . "Store Word Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stwx.htm#idx945")
+ ("stx"
+  . "Store Indexed: http://www.nersc.gov/vendor_docs/ibm/asm/stwx.htm#idx946")
+ ("sub"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/fixed_point_arith.htm#idx162")
+ ("subc"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/fixed_point_arith.htm#idx160")
+ ("subf"
+  . "Subtract From: http://www.nersc.gov/vendor_docs/ibm/asm/subf.htm#idx949")
+ ("subfc"
+  . "Subtract from Carrying: http://www.nersc.gov/vendor_docs/ibm/asm/subfc.htm#idx951")
+ ("subfe"
+  . "Subtract from Extended: http://www.nersc.gov/vendor_docs/ibm/asm/subfe.htm#idx955")
+ ("subfic"
+  . "Subtract from Immediate Carrying: http://www.nersc.gov/vendor_docs/ibm/asm/subfic.htm#idx959")
+ ("subfme"
+  . "Subtract from Minus One Extended: http://www.nersc.gov/vendor_docs/ibm/asm/subfme.htm#idx963")
+ ("subfze"
+  . "Subtract from Zero Extended: http://www.nersc.gov/vendor_docs/ibm/asm/subfze.htm#idx967")
+ ("subic"
+  . "extended mnemonic: http://www.nersc.gov/vendor_docs/ibm/asm/fixed_point_arith.htm#idx159")
+ ("svc"
+  . "Supervisor Call: http://www.nersc.gov/vendor_docs/ibm/asm/svc.htm#idx971")
+ ("sync"
+  . "Synchronize: http://www.nersc.gov/vendor_docs/ibm/asm/sync.htm#idx973")
+ ("t" . "Trap: http://www.nersc.gov/vendor_docs/ibm/asm/tw.htm#idx989")
+ ("td"
+  . "Trap Double Word: http://www.nersc.gov/vendor_docs/ibm/asm/td.htm#idx977 http://www.nersc.gov/vendor_docs/ibm/asm/td.htm#idx978")
+ ("tdi"
+  . "Trap Double Word Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/tdi.htm#idx979 http://www.nersc.gov/vendor_docs/ibm/asm/tdi.htm#idx980")
+ ("ti"
+  . "Trap Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/twi.htm#idx995")
+ ("tlbi"
+  . "Translation Look-Aside Buffer Invalidate Entry: http://www.nersc.gov/vendor_docs/ibm/asm/tlbie.htm#idx982")
+ ("tlbie"
+  . "Translation Look-Aside Buffer Invalidate Entry: http://www.nersc.gov/vendor_docs/ibm/asm/tlbie.htm#idx981")
+ ("tlbld"
+  . "Load Data TLB Entry: http://www.nersc.gov/vendor_docs/ibm/asm/tlbld.htm#idx985")
+ ("tlbli"
+  . "Load Instruction TLB Entry: http://www.nersc.gov/vendor_docs/ibm/asm/tlbli.htm#idx986")
+ ("tlbsync"
+  . "Translation Look-Aside Buffer Synchronize: http://www.nersc.gov/vendor_docs/ibm/asm/tlbsync.htm#idx987")
+ ("tw" . "Trap Word: http://www.nersc.gov/vendor_docs/ibm/asm/tw.htm#idx988")
+ ("twi"
+  . "Trap Word Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/twi.htm#idx994")
+ ("xor" . "XOR: http://www.nersc.gov/vendor_docs/ibm/asm/xor.htm#idx1000")
+ ("xori"
+  . "XOR Immediate: http://www.nersc.gov/vendor_docs/ibm/asm/xori.htm#idx1002")
+ ("xoril"
+  . "XOR Immediate Lower: http://www.nersc.gov/vendor_docs/ibm/asm/xori.htm#idx1003")
+ ("xoris"
+  . "XOR Immediate Shift: http://www.nersc.gov/vendor_docs/ibm/asm/xoris.htm#idx1006")
+ ("xoriu"
+  . "XOR Immediate Upper: http://www.nersc.gov/vendor_docs/ibm/asm/xoris.htm#idx1007"))

@@ -1,0 +1,52 @@
+cl-irc (20050321-1) unstable; urgency=low
+
+  * New upstream
+  * New versioning scheme, now no longer a native package
+  * Updated policy version
+  * Now uses darcs-buildpackage
+
+ -- Peter Van Eynde <pvaneynd@debian.org>  Sat,  2 Jul 2005 22:52:51 +0200
+
+cl-irc (0.6.2) unstable; urgency=low
+
+  * Updated package to current CVS (2005-03-03) 
+
+ -- Peter Van Eynde <pvaneynd@debian.org>  Thu,  3 Mar 2005 10:20:59 +0100
+
+cl-irc (0.6.1) unstable; urgency=low
+
+  * New maintainer. (Closes: #297366: O: cl-irc)
+  * Adopted by Peter Van Eynde
+
+ -- Peter Van Eynde <pvaneynd@debian.org>  Tue,  1 Mar 2005 10:12:20 +0100
+
+cl-irc (0.6.0) unstable; urgency=low
+
+  * New upstream
+
+ -- Kevin M. Rosenberg <kmr@debian.org>  Thu, 12 Aug 2004 20:47:34 -0600
+
+cl-irc (0.5.2) unstable; urgency=low
+
+  * New upstream
+
+ -- Kevin M. Rosenberg <kmr@debian.org>  Mon, 29 Mar 2004 12:06:43 -0700
+
+cl-irc (0.5.1-1) unstable; urgency=low
+
+  * New upstream
+  * Depend on cl-split-sequence
+
+ -- Kevin M. Rosenberg <kmr@debian.org>  Sat, 31 Jan 2004 12:09:59 -0700
+
+cl-irc (0.5-1) unstable; urgency=low
+
+  * New upstream
+
+ -- Kevin M. Rosenberg <kmr@debian.org>  Wed,  7 Jan 2004 05:57:55 -0700
+
+cl-irc (0.0+cvs.2003.12.16-1) unstable; urgency=low
+
+  * Initial upload
+
+ -- Kevin M. Rosenberg <kmr@debian.org>  Tue, 16 Dec 2003 14:28:51 -0700

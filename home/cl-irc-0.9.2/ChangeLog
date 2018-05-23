@@ -1,0 +1,40 @@
+
+Changes in 0.8 since 0.7:
+
+ * The library tracks user and channel modes automatically
+ * The concept of 'trailing-argument' removed (non-RFC compliance)
+ * Socket support now through 'usocket' library
+ * Threading support deprecated; use 'bordeaux-threads' or 'clim-sys' instead
+ * Support for password protected network logon
+ * Joining password protected channels now supported
+ * Specifying a reason phrase when parting channels now supported
+ * 'irc-message-event' now specializable on the default connection class
+ * RPL_ISUPPORT fixes
+ * Message parsing closer to specs in RFC
+ * Support for specified outgoing external-format
+ * Support for specified incoming external-format (with fallback)
+ * Stop leaking 'invalidate-me' conditions (by removing them completely)
+ * DCC support enhancements
+ * More generic functions to silence compiler warnings
+
+2005-03-21  Erik Huelsmann  <ehuelsmann@common-lisp.net>
+
+	Add MODE tracking support.
+
+2004-03-18  Erik Huelsmann  <ehuelsmann@common-lisp.net>
+
+	* protocol.lisp: Add defgenerics. Remove duplicates 
+	from *reply-names* before passing to create-irc-message-classes.
+
+	* command.lisp, event.lisp: Add defgenerics.
+
+	* protocol.lisp (remove-channel): Change order of arguments
+	to (remove-channel <user-object> <channel-object>)
+
+	* package.lisp (export): Export symbols needed for manipulation
+	of the different objects 
+
+2004-03-08:
+	Started tracking changes committed to the repository in this log.
+
+	Ordering of events in this file is last-commited-at-top.

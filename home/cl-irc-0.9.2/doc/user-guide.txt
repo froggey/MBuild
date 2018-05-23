@@ -1,0 +1,106 @@
+$Id: user-guide.txt 88 2005-03-20 16:55:43Z ehuelsmann $
+$Source$
+
+A user's guide to cl-irc.  The user is thought of as a Common Lisp
+programmer using the library in his own code.
+
+  Introduction to IRC
+
+    If you haven't already, now is probably a good time to read the
+    relevant RFCs (distributed with this software).  You certainly
+    don't have to but it will help your understanding of the domain.
+    RFC2810 is a short text on the architecture of the protocols.
+
+  About this library
+
+    cl-irc is an implementation of the client-side protocol.
+    It is not impossible to add the server-side but it has simple not
+    been done yet (and the current authors have no plans of doing so,
+    although patches are certainly welcome).
+
+    Here's the basic idea: You tell the library to connect to an IRC
+    server; it gives you a connection object in return.  You call
+    `read-message-loop' which reads messages from the server.  For
+    each message that is received, it is parsed and the library tries
+    to find a hook to apply to the message (see ``Hooks'') and if
+    successful the hook will be called with the message as its single
+    argument.  You customize the library via the hooks.
+
+  Multiple connections
+
+    The library has been designed in such a way that all state is
+    centered around the connection object.  As such, multiple,
+    instances are perfectly feasible and there is no global state the
+    user needs to worry about.
+
+  Hooks
+
+    The following operators are available to help dealing with hooks:
+
+      - get-hooks
+      - remove-hooks
+      - add-hook
+      - remove-hook
+
+    Register your operator (must accept one argument which will be a
+    message object) with `add-hook' and it will be called the next
+    time the library receives a message for your connection.
+
+  Modes
+
+    The library tracks modes and mode changes for channels and users
+    and sets mode fields accordingly.  To manipulate modes, use:
+
+      - add-mode
+      - remove-mode
+      - has-mode-p
+      - has-mode-value-p
+      - set-mode
+      - unset-mode
+
+    on objects of class `user' or `channel'.  Note that these only change
+    local state.  You'll need to use the `mode' method to send mode
+    changes over the network.
+
+    The library translates modes from the network (designated by
+    characters) to keywords.  These keywords are then used as the
+    `mode-name' argument for the above methods.  Any value can be used
+    as a mode name when introducing custom modes.
+
+    Modes which take on `on' or `off' values, like the `a' user
+    mode (away), return `nil' for `has-mode-value-p' to signal `off' and
+    `t' to signal `on'.
+
+    Applications which want to track their own modes need to append
+    the return value from the `make-mode-description' function to either
+    the channel-mode-descriptions or user-mode-descriptions field.
+
+  An example
+
+    * (require :cl-irc)
+
+    * (in-package :irc)
+
+    * (setf connection (connect :nickname "mynick"
+                                :server "irc.somewhere.org"))
+
+    * (read-message-loop connection)
+
+    ^C [snip implementation signaling condition]
+
+    * (join connection "#lisp")
+
+    * (read-message-loop connection)
+
+    After this you might wish to exit the loop again and poke at the
+    connection object.  As mentioned, the library by default keeps
+    your connection object current with regards to users
+    leaving/joining channels, topics changing, etc.
+
+  The future
+
+    A multiprocessing interface to the blocking calls would be nice.
+
+  Feedback
+
+    Please direct any feedback to cl-irc-devel@common-lisp.net
