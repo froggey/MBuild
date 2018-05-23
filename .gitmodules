@@ -118,3 +118,7 @@
 	path = home/trivial-garbage
 	url = https://github.com/fittestbits/trivial-garbage.git
 	branch = fittestbits/mezzano
+[submodule "home/mcclim"]
+	path = home/mcclim
+	url = https://github.com/fittestbits/McCLIM.git
+	branch = fittestbits/compositor
