@@ -122,3 +122,12 @@
 	path = home/mcclim
 	url = https://github.com/fittestbits/McCLIM.git
 	branch = fittestbits/compositor
+[submodule "home/usocket"]
+	path = home/usocket
+	url = https://github.com/usocket/usocket
+[submodule "home/beirc"]
+	path = home/beirc
+	url = https://github.com/MrNeutron/beirc.git
+[submodule "home/cl-ppcre"]
+	path = home/cl-ppcre
+	url = https://github.com/edicl/cl-ppcre.git
