@@ -131,3 +131,6 @@
 [submodule "home/cl-ppcre"]
 	path = home/cl-ppcre
 	url = https://github.com/edicl/cl-ppcre.git
+[submodule "home/cl-fad"]
+	path = home/cl-fad
+	url = https://github.com/edicl/cl-fad.git
