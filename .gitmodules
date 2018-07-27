@@ -66,7 +66,7 @@
 	url = https://github.com/robert-strandh/Flexichain.git
 [submodule "home/opticl"]
 	path = home/opticl
-	url = https://github.com/slyrus/opticl.git
+	url = https://github.com/froggey/opticl.git
 [submodule "home/retrospectiff"]
 	path = home/retrospectiff
 	url = https://github.com/slyrus/retrospectiff.git
@@ -120,20 +120,19 @@
 	branch = fittestbits/mezzano
 [submodule "home/mcclim"]
 	path = home/mcclim
-	url = https://github.com/fittestbits/McCLIM.git
-	branch = fittestbits/compositor
+	url = https://github.com/froggey/McCLIM.git
 [submodule "home/usocket"]
 	path = home/usocket
-	url = https://github.com/usocket/usocket
+	url = https://github.com/froggey/usocket
 [submodule "home/beirc"]
 	path = home/beirc
-	url = https://github.com/MrNeutron/beirc.git
+	url = https://github.com/froggey/beirc.git
 [submodule "home/cl-ppcre"]
 	path = home/cl-ppcre
 	url = https://github.com/edicl/cl-ppcre.git
 [submodule "home/cl-fad"]
 	path = home/cl-fad
-	url = https://github.com/edicl/cl-fad.git
+	url = https://github.com/froggey/cl-fad.git
 [submodule "home/quicklisp-client"]
 	path = home/quicklisp-client
 	url = https://github.com/froggey/quicklisp-client.git
