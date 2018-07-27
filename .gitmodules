@@ -134,3 +134,6 @@
 [submodule "home/cl-fad"]
 	path = home/cl-fad
 	url = https://github.com/edicl/cl-fad.git
+[submodule "home/quicklisp-client"]
+	path = home/quicklisp-client
+	url = https://github.com/froggey/quicklisp-client.git
