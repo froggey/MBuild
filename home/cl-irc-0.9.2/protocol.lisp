@@ -861,7 +861,8 @@ nickname."
 known."
   (let ((nickname (normalize-nickname connection nickname)))
     (or (gethash nickname (users connection))
-        (when (string= nickname (nickname (user connection)))
+        (when (and (user connection)
+                   (string= nickname (nickname (user connection))))
           (user connection)))))
 
 ; what if the user is not on any channels?
