@@ -122,3 +122,7 @@
 	path = home/mcclim
 	url = https://github.com/froggey/McCLIM.git
 	branch = fittestbits/compositor
+[submodule "home/cl-fad"]
+	path = home/cl-fad
+	url = https://github.com/froggey/cl-fad.git
+	branch = mezzano-port
