@@ -58,3 +58,67 @@
 [submodule "home/split-sequence"]
 	path = home/split-sequence
 	url = https://github.com/sharplispers/split-sequence.git
+[submodule "home/spatial-trees"]
+	path = home/spatial-trees
+	url = https://github.com/rpav/spatial-trees.git
+[submodule "home/flexichain"]
+	path = home/flexichain
+	url = https://github.com/robert-strandh/Flexichain.git
+[submodule "home/retrospectiff"]
+	path = home/retrospectiff
+	url = https://github.com/slyrus/retrospectiff.git
+[submodule "home/ieee-floats"]
+	path = home/ieee-floats
+	url = https://github.com/marijnh/ieee-floats.git
+[submodule "home/deflate"]
+	path = home/deflate
+	url = https://github.com/pmai/Deflate.git
+[submodule "home/opticl-core"]
+	path = home/opticl-core
+	url = https://github.com/slyrus/opticl-core.git
+[submodule "home/zpng"]
+	path = home/zpng
+	url = https://github.com/xach/zpng.git
+[submodule "home/salza2"]
+	path = home/salza2
+	url = https://github.com/xach/salza2.git
+[submodule "home/fast-io"]
+	path = home/fast-io
+	url = https://github.com/rpav/fast-io.git
+[submodule "home/cl-tga"]
+	path = home/cl-tga
+	url = https://github.com/fisxoj/cl-tga.git
+[submodule "home/cl-pdf"]
+	path = home/cl-pdf
+	url = https://github.com/mbattyani/cl-pdf.git
+[submodule "home/parsley"]
+	path = home/parsley
+	url = https://github.com/mfiano/parsley.git
+[submodule "home/bitio"]
+	path = home/bitio
+	url = https://github.com/psilord/bitio.git
+[submodule "home/binary-data"]
+	path = home/binary-data
+	url = https://github.com/gigamonkey/monkeylib-binary-data.git
+[submodule "home/pngload"]
+	path = home/pngload
+	url = https://github.com/HackerTheory/pngload.git
+[submodule "home/closer-mop"]
+	path = home/closer-mop
+	url = https://github.com/fittestbits/closer-mop.git
+	branch = fittestbits/mezzano
+[submodule "home/static-vectors"]
+	path = home/static-vectors
+	url = https://github.com/fittestbits/static-vectors.git
+	branch = fittestbits/mezzano
+[submodule "home/trivial-garbage"]
+	path = home/trivial-garbage
+	url = https://github.com/fittestbits/trivial-garbage.git
+	branch = fittestbits/mezzano
+[submodule "home/opticl"]
+	path = home/opticl
+	url = https://github.com/froggey/opticl.git
+[submodule "home/mcclim"]
+	path = home/mcclim
+	url = https://github.com/froggey/McCLIM.git
+	branch = fittestbits/compositor
