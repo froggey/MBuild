@@ -20,7 +20,7 @@ CL-PPCRE
 CL-FAD
 
 To install the packages with Quicklisp, install SBCL and Quicklisp.  Then at a shell prompt, run:
-sbcl --script /path/to/quicklisp.lisp
+sbcl --load /path/to/quicklisp.lisp
 (on Debian and Ubuntu based Linux systems, if you install Quicklisp through the package manager it's in sbcl --script /usr/share/cl-quicklisp/quicklisp.lisp)
 In SBCL type each of the following commands:
 (quicklisp-quickstart:install)
