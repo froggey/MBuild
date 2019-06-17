@@ -15,14 +15,15 @@
 
 (format t "Loading build prerequisites....~%")
 #+quicklisp
-(ql:quickload '(:nibbles :cl-ppcre :iterate :alexandria))
+(ql:quickload '(:nibbles :cl-ppcre :iterate :alexandria :closer-mop))
 #-quicklisp
 (progn
   (require :asdf)
   (require :nibbles)
   (require :cl-ppcre)
   (require :iterate)
-  (require :alexandria))
+  (require :alexandria)
+  (require :closer-mop))
 
 (format t "Loading Mezzano compiler and cold-generator....~%")
 (push *default-pathname-defaults* asdf:*central-registry*)

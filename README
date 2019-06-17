@@ -18,6 +18,7 @@ Iterate
 Nibbles
 CL-PPCRE
 CL-FAD
+closer-mop
 
 To install the packages with Quicklisp, install SBCL and Quicklisp.  Then at a shell prompt, run:
 sbcl --script /path/to/quicklisp.lisp
