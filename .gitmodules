@@ -1,6 +1,6 @@
 [submodule "home/asdf"]
 	path = home/asdf
-	url = https://gitlab.common-lisp.net/asdf/asdf.git
+	url = https://github.com/froggey/asdf.git
 [submodule "home/trivial-features"]
 	path = home/trivial-features
 	url = https://github.com/froggey/trivial-features
@@ -105,15 +105,15 @@
 	url = https://github.com/HackerTheory/pngload.git
 [submodule "home/closer-mop"]
 	path = home/closer-mop
-	url = https://github.com/fittestbits/closer-mop.git
-	branch = fittestbits/mezzano
+	url = https://github.com/froggey/closer-mop.git
+	branch = master
 [submodule "home/static-vectors"]
 	path = home/static-vectors
 	url = https://github.com/fittestbits/static-vectors.git
 	branch = fittestbits/mezzano
 [submodule "home/trivial-garbage"]
 	path = home/trivial-garbage
-	url = https://github.com/fittestbits/trivial-garbage.git
+	url = https://github.com/froggey/trivial-garbage.git
 	branch = fittestbits/mezzano
 [submodule "home/opticl"]
 	path = home/opticl

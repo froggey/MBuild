@@ -26,7 +26,7 @@ cold-image: build-cold-image.lisp asdf
 	@echo File server address: $(FILE_SERVER_IP)
 	@echo Source path: $(CURDIR)/Mezzano/
 	@echo Home directory path: $(CURDIR)/home/
-	echo "(in-package :sys.int)" > Mezzano/config.lisp
+	echo "(in-package :mezzano.internals)" > Mezzano/config.lisp
 	echo "(defparameter *file-server-host-ip* \"$(FILE_SERVER_IP)\")" >> Mezzano/config.lisp
 	echo "(defparameter *home-directory-path* \"$(CURDIR)/home/\")" >> Mezzano/config.lisp
 	echo "(defparameter *mezzano-source-path* \"$(CURDIR)/Mezzano/\")" >> Mezzano/config.lisp

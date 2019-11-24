@@ -1,5 +1,6 @@
 *.llf
 /mezzano.image
 /mezzano.map
+/mezzano.symbol-table
 /mezzano.vmdk
 .DS_Store
