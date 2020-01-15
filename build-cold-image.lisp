@@ -33,7 +33,7 @@
 (cold-generator:set-up-cross-compiler)
 
 (format t "Building cold image...~%")
-(cold-generator::make-image "../../mezzano" :image-size (* 3072 1024 1024) :header-path "tools/disk-header.bin")
+(cold-generator::make-image "../../mezzano" :image-size (* 5 1024 1024 1024) :header-path "tools/disk-header.bin")
 
 (format t "Build successful!~%")
 (quit)

@@ -1,6 +1,8 @@
 # This must be the SBCL executable to use
 SBCL := sbcl
 # This must be the IP address of the file-server.
+# Typically this is the local IP address of the machine running the
+# file-server, not the public IP.
 # Note! Addresses on 10.0.2/24 networks are not supported, as this conflicts
 # with the network provided by qemu and VirtualBox.
 FILE_SERVER_IP := 192.168.0.555
