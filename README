@@ -60,7 +60,7 @@ Quick Start
    VM settings:
    General->Type: Other
             Version: Other/Unknown (64-bit)
-   System->Motherboard->Base Memory: 512MB
+   System->Motherboard->Base Memory: 2GB
    System->Acceleration->Enable VT-x/AMV-V: enabled
                          Enable Nested Paging: enabled
    Storage->IDE controller with mezzano.vmdk attached on the Primary Master hard disk.
