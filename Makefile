@@ -30,8 +30,8 @@ cold-image: build-cold-image.lisp asdf
 	@echo Home directory path: $(CURDIR)/home/
 	echo "(in-package :mezzano.internals)" > Mezzano/config.lisp
 	echo "(defparameter *file-server-host-ip* \"$(FILE_SERVER_IP)\")" >> Mezzano/config.lisp
-	echo "(defparameter *home-directory-path* \"$(CURDIR)/home/\")" >> Mezzano/config.lisp
-	echo "(defparameter *mezzano-source-path* \"$(CURDIR)/Mezzano/\")" >> Mezzano/config.lisp
+	echo "(defparameter *home-directory-path* \"REMOTE:$(CURDIR)/home/\")" >> Mezzano/config.lisp
+	echo "(defparameter *mezzano-source-path* \"REMOTE:$(CURDIR)/Mezzano/\")" >> Mezzano/config.lisp
 	cd Mezzano/ && $(SBCL) --dynamic-space-size 2048 --load ../build-cold-image.lisp
 
 cold-image-vmdk: cold-image
