@@ -126,3 +126,6 @@
 	path = home/cl-fad
 	url = https://github.com/froggey/cl-fad.git
 	branch = mezzano-port
+[submodule "home/quicklisp-client"]
+	path = home/quicklisp-client
+	url = https://github.com/froggey/quicklisp-client.git
