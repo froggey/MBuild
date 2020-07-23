@@ -129,3 +129,6 @@
 [submodule "home/quicklisp-client"]
 	path = home/quicklisp-client
 	url = https://github.com/froggey/quicklisp-client.git
+[submodule "home/nibbles"]
+	path = home/nibbles
+	url = https://github.com/froggey/nibbles.git
