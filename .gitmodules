@@ -132,3 +132,6 @@
 [submodule "home/nibbles"]
 	path = home/nibbles
 	url = https://github.com/froggey/nibbles.git
+[submodule "home/cl-ppcre"]
+	path = home/cl-ppcre
+	url = https://github.com/edicl/cl-ppcre.git
