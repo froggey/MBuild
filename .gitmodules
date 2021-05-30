@@ -93,7 +93,7 @@
 	url = https://github.com/mbattyani/cl-pdf.git
 [submodule "home/parsley"]
 	path = home/parsley
-	url = https://github.com/mfiano/parsley.git
+	url = https://git.mfiano.net/mfiano/parsley.git
 [submodule "home/bitio"]
 	path = home/bitio
 	url = https://github.com/psilord/bitio.git
@@ -102,7 +102,7 @@
 	url = https://github.com/gigamonkey/monkeylib-binary-data.git
 [submodule "home/pngload"]
 	path = home/pngload
-	url = https://github.com/HackerTheory/pngload.git
+	url = https://git.mfiano.net/mfiano/pngload.git
 [submodule "home/closer-mop"]
 	path = home/closer-mop
 	url = https://github.com/froggey/closer-mop.git
