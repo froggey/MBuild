@@ -59,9 +59,11 @@ asdf:
 	make -C home/asdf
 
 qemu:
-	qemu-system-x86_64 -m 512 -hda mezzano.image -serial stdio -vga std -net user,hostfwd=tcp:127.0.0.1:4005-:4005 -net nic,model=virtio
+	qemu-system-x86_64 -m 2G -hda mezzano.image -serial stdio -vga std -net user,hostfwd=tcp:127.0.0.1:4005-:4005 -net nic,model=virtio
 kvm:
-	qemu-system-x86_64 -m 512 -hda mezzano.image -serial stdio -vga std -net user,hostfwd=tcp:127.0.0.1:4005-:4005 -net nic,model=virtio -enable-kvm
+	qemu-system-x86_64 -m 2G -hda mezzano.image -serial stdio -vga std -net user,hostfwd=tcp:127.0.0.1:4005-:4005 -net nic,model=virtio -enable-kvm
+qemu-arm64:
+	qemu-system-aarch64 -machine virt -cpu cortex-a53 -m 2G -kernel Mezzano/tools/kboot/kboot-generic-arm64.bin -serial stdio -device virtio-gpu-device -device virtio-keyboard-device -device virtio-mouse-device -drive if=none,file=Mezzano/build-arm64/mezzano.image,id=blk,format=raw -device virtio-blk-device,drive=blk -netdev user,id=vmnic,hostname=qemu -device virtio-net-device,netdev=vmnic
 
 clean:
 	rm -rf home/.cache/common-lisp/ home/.slime/ home/asdf/build/
