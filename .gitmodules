@@ -135,3 +135,6 @@
 [submodule "home/cl-ppcre"]
 	path = home/cl-ppcre
 	url = https://github.com/edicl/cl-ppcre.git
+[submodule "home/cl-isolated"]
+	path = home/cl-isolated
+	url = https://github.com/kanru/cl-isolated
