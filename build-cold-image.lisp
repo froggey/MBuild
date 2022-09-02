@@ -7,7 +7,7 @@
 (error "Unicode support is required.")
 
 ;; The cold-generator requires a distinct (vector (unsigned-byte 64)) type.
-#-(or x86-64 ppc64)
+#-(or 64-bit arm64 x86-64 ppc64)
 (error "A 64-bit SBCL is required.")
 
 (setf sb-impl::*default-external-format* :utf-8)
