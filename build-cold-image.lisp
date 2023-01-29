@@ -29,7 +29,15 @@
 (push *default-pathname-defaults* asdf:*central-registry*)
 (asdf:load-system :lispos)
 ;; Initialize the compiler.
-(cold-generator:set-up-cross-compiler)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Choose your architecture here.
+;;
+;; :x86-64 is well supported and the standard target.
+;; :arm64 is a secondary target, may not be functional and has many missing features.
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(cold-generator:set-up-cross-compiler :architecture :x86-64)
 
 (format t "Building cold image...~%")
 (cold-generator::make-image "../../mezzano" :image-size (* 5 1024 1024 1024) :header-path "tools/disk-header.bin")
